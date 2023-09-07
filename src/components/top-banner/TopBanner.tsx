@@ -6,7 +6,7 @@ type Props = {};
 const TopBanner = (props: Props) => {
   return (
     <div className={styles.container}>
-      <p>free shipping in us for orders over $100</p>
+      <p className={styles.content}>free shipping in us for orders over $100</p>
     </div>
   );
 };

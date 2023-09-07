@@ -5,8 +5,10 @@ import TopBanner from "@/components/top-banner/TopBanner";
 
 export default function Home() {
   return (
-    <main className={styles.main}>
+    <main>
       <TopBanner />
+
+      <div className={styles.main}></div>
     </main>
   );
 }
