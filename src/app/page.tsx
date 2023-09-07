@@ -4,11 +4,5 @@ import styles from "./page.module.css";
 import TopBanner from "@/components/top-banner/TopBanner";
 
 export default function Home() {
-  return (
-    <main>
-      <TopBanner />
-
-      <div className={styles.main}></div>
-    </main>
-  );
+  return <main></main>;
 }

@@ -30,3 +30,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+.container {
+  margin: 0 auto;
+  padding: 2rem;
+}
