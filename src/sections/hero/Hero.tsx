@@ -65,8 +65,8 @@ const Hero = (props: Props) => {
         </h3>
 
         <p>
-          We're challenging conventional retail, putting an end to <br />
-          dead stock, unconventional waste and more funtastic.
+          We're challenging conventional retail, putting an end to dead stock,
+          unconventional waste and more funtastic.
         </p>
       </div>
       <div className={styles.third}></div>

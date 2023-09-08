@@ -84,9 +84,25 @@
 /* SECOND SECTION */
 .second {
   grid-area: second;
-  background-color: burlywood;
+  background-color: #d4d3ce;
   border-radius: 15px;
   overflow: hidden;
+  padding: 2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.second h3 {
+  text-transform: uppercase;
+  font-size: 2.2rem;
+  line-height: 130%;
+}
+
+.second p {
+  font-size: 1rem;
+  line-height: 130%;
+  width: 80%;
 }
 
 /* THIRD SECTION */
