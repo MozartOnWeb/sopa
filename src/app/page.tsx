@@ -1,8 +1,12 @@
 import styles from "./page.module.css";
 
 //import components
-import TopBanner from "@/components/top-banner/TopBanner";
+import Hero from "@/sections/hero/Hero";
 
 export default function Home() {
-  return <main></main>;
+  return (
+    <main className={styles.container}>
+      <Hero />
+    </main>
+  );
 }
