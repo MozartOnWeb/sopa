@@ -1,14 +1,15 @@
 .container {
   margin-top: 2rem;
   width: 100%;
-  height: 400px;
+  height: 500px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   gap: 1rem;
   grid-template-areas:
-    "first first first second second"
-    "first first first third fourth";
+    "first first second second"
+    "first first second second"
+    "first first third fourth";
 }
 
 /* FIRST SECTION */
