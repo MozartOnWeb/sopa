@@ -95,6 +95,22 @@
   background-color: var(--background-color);
 }
 
+@media screen and (max-width: 472px) {
+  .buttons {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .first {
+    padding: 1rem;
+  }
+}
+
 /* SECOND SECTION */
 .second {
   grid-area: second;
@@ -122,6 +138,22 @@
 @media screen and (max-width: 911px) {
   .second h3 {
     font-size: 1.8rem;
+  }
+}
+
+@media screen and (max-width: 512px) {
+  .second p {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 472px) {
+  .second {
+    padding: 1rem;
+  }
+
+  .second h3 {
+    font-size: 1.6rem;
   }
 }
 
@@ -153,6 +185,12 @@
   color: var(--background-color);
 }
 
+@media screen and (max-width: 472px) {
+  .third {
+    padding: 0.5rem;
+  }
+}
+
 /* FOURTH SECTION */
 .fourth {
   position: relative;
@@ -179,4 +217,10 @@
   text-transform: uppercase;
   font-weight: 600;
   color: var(--background-color);
+}
+
+@media screen and (max-width: 472px) {
+  .fourth {
+    padding: 0.5rem;
+  }
 }
