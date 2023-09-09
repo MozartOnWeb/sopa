@@ -1,12 +1,14 @@
 import styles from "./page.module.css";
 
-//import components
+//import sections
 import Hero from "@/sections/hero/Hero";
+import Description from "@/sections/description/Description";
 
 export default function Home() {
   return (
     <main className={styles.container}>
       <Hero />
+      <Description />
     </main>
   );
 }
