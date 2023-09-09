@@ -90,6 +90,23 @@ const Navbar = (props: Props) => {
           <circle cx="12" cy="7" r="4" />
         </svg>
       </div>
+
+      <div className={styles.hamburger_icon}>
+        <svg
+          width="18"
+          height="14"
+          viewBox="0 0 18 14"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M7.5 13H17M1 7H17M1 1H17"
+            stroke="#f2f2f3"
+            strokeWidth="1.5"
+            strokeLinecap="round"
+          />
+        </svg>
+      </div>
     </div>
   );
 };
