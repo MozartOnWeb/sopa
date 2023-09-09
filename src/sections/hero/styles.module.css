@@ -12,6 +12,20 @@
     "first first third fourth";
 }
 
+@media screen and (max-width: 911px) {
+  .container {
+    height: 700px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1.8fr 1fr;
+    gap: 1rem;
+    grid-template-areas:
+      "first first"
+      "first first"
+      "second second"
+      "third fourth";
+  }
+}
+
 /* FIRST SECTION */
 .first {
   position: relative;
@@ -103,6 +117,12 @@
   font-size: 1rem;
   line-height: 130%;
   width: 80%;
+}
+
+@media screen and (max-width: 911px) {
+  .second h3 {
+    font-size: 1.8rem;
+  }
 }
 
 /* THIRD SECTION */
