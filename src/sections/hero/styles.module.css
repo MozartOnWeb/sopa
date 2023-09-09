@@ -107,16 +107,56 @@
 
 /* THIRD SECTION */
 .third {
+  position: relative;
   grid-area: third;
-  background-color: coral;
   border-radius: 15px;
   overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.third img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.third p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--background-color);
 }
 
 /* FOURTH SECTION */
 .fourth {
+  position: relative;
   grid-area: fourth;
-  background-color: hotpink;
   border-radius: 15px;
   overflow: hidden;
+  display: flex;
+  align-items: flex-end;
+  padding: 1rem;
+}
+
+.fourth img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.fourth p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--background-color);
 }

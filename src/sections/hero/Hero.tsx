@@ -69,8 +69,14 @@ const Hero = (props: Props) => {
           unconventional waste and more funtastic.
         </p>
       </div>
-      <div className={styles.third}></div>
-      <div className={styles.fourth}></div>
+      <div className={styles.third}>
+        <Image src={First} alt="first" />
+        <p>#Trending2023</p>
+      </div>
+      <div className={styles.fourth}>
+        <Image src={First} alt="first" />
+        <p>#OldbutGold</p>
+      </div>
     </section>
   );
 };
