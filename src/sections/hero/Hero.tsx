@@ -5,6 +5,8 @@ import Image from "next/image";
 
 //import images
 import First from "@/assets/images/hero-first.jpg";
+import Third from "@/assets/images/hero-third.webp";
+import Fourth from "@/assets/images/hero-fourth.webp";
 
 type Props = {};
 
@@ -70,11 +72,11 @@ const Hero = (props: Props) => {
         </p>
       </div>
       <div className={styles.third}>
-        <Image src={First} alt="first" />
+        <Image src={Third} alt="first" />
         <p>#Trending2023</p>
       </div>
       <div className={styles.fourth}>
-        <Image src={First} alt="first" />
+        <Image src={Fourth} alt="first" />
         <p>#OldbutGold</p>
       </div>
     </section>
