@@ -6,17 +6,26 @@ import styles from "./styles.module.css";
 //import image
 import image from "@/assets/images/description.jpg";
 
-type Props = {};
+type Props = {
+  image?: string;
+  product_name?: string;
+  color_1?: string;
+  color_2?: string;
+  color_3?: string;
+  price?: string;
+};
 
 const ProductCard = (props: Props) => {
   return (
     <div className={styles.main}>
       <div className={styles.image_container}>
-        <Image src={image} alt="image" />
+        <Image src={props.image ? props.image : image} alt="image" />
       </div>
 
       <div className={styles.details}>
-        <p className={styles.product_name}>Shirts New Era</p>
+        <p className={styles.product_name}>
+          {props.product_name ? props.product_name : "Shirts New Era"}
+        </p>
 
         <div className={styles.colors}>
           <div className={styles.color_1}></div>
