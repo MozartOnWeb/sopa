@@ -1,0 +1,35 @@
+.main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.main button {
+  padding: 0.8rem;
+  border-radius: 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 1px solid var(--text-color);
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+.main button span {
+  font-size: 0.6rem;
+  font-weight: 700;
+}
+
+.main button:hover {
+  border: 1px solid var(--accent-color);
+  background-color: var(--text-color);
+  color: var(--accent-color);
+}
+
+.main button.active {
+  border: 1px solid var(--accent-color);
+  background-color: var(--text-color);
+  color: var(--accent-color);
+}
