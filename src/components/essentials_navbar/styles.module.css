@@ -1,9 +1,22 @@
 .main {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 2rem;
   margin-top: 1rem;
+}
+
+@media screen and (max-width: 1042px) {
+  .main {
+    gap: 1rem 2rem;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .main {
+    gap: 1rem;
+  }
 }
 
 .main button {
