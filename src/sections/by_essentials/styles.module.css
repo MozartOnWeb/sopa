@@ -19,6 +19,7 @@
   gap: 2rem;
 }
 
+/* RESPONSIVE SECTION */
 @media screen and (max-width: 672px) {
   .product_container {
     grid-template-columns: repeat(2, 1fr);
