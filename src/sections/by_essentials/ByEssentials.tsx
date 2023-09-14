@@ -16,7 +16,13 @@ const ByEssentials = (props: Props) => {
       <EssentialsNav />
 
       <div className={styles.product_container}>
-        <ProductCard />
+        <ProductCard
+          color_1=""
+          color_2=""
+          color_3=""
+          price=""
+          product_name=""
+        />
         <ProductCard />
         <ProductCard />
         <ProductCard />
