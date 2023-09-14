@@ -23,7 +23,13 @@ const ByEssentials = (props: Props) => {
           price=""
           product_name=""
         />
-        <ProductCard />
+        <ProductCard
+          color_1=""
+          color_2=""
+          color_3=""
+          price=""
+          product_name=""
+        />
         <ProductCard />
         <ProductCard />
         <ProductCard />
