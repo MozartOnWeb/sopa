@@ -17,11 +17,11 @@ const ByEssentials = (props: Props) => {
 
       <div className={styles.product_container}>
         <ProductCard
-          color_1=""
-          color_2=""
-          color_3=""
-          price=""
-          product_name=""
+          color_1="#219ebc"
+          color_2="#ffb703"
+          color_3="#fb8500"
+          price="120.00"
+          product_name="Shirts New Era"
         />
         <ProductCard
           color_1=""
