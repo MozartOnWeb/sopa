@@ -52,10 +52,10 @@ const ByEssentials = (props: Props) => {
           product_name="Shirts New Era"
         />
         <ProductCard
-          color_1="#e63946"
-          color_2="#a8dadc"
-          color_3="#457b9d"
-          price="94.00"
+          color_1="#d8e2dc"
+          color_2="#f4acb7"
+          color_3="#d00000"
+          price="450.00"
           product_name="Shirts New Era"
         />
       </div>
