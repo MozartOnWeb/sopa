@@ -33,17 +33,17 @@ const ProductCard = (props: Props) => {
             className={styles.color_1}
           ></div>
           <div
-            style={{ backgroundColor: props.color_1 }}
+            style={{ backgroundColor: props.color_2 }}
             className={styles.color_2}
           ></div>
           <div
-            style={{ backgroundColor: props.color_1 }}
+            style={{ backgroundColor: props.color_3 }}
             className={styles.color_3}
           ></div>
         </div>
       </div>
 
-      <p className={styles.price}>$100.00</p>
+      <p className={styles.price}>${props.price}</p>
     </div>
   );
 };
